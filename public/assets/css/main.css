@@ -33,8 +33,8 @@ header {
     header .container .row .boton a {
       background-color: #ff3232; }
     header .container .row a.more {
-      background-color: transparent;
-      box-shadow: 0 0 0; }
+      box-shadow: 0 0 0;
+      padding-top: 7px; }
 
 .hamburger {
   background-color: transparent;
