@@ -31,7 +31,8 @@ header {
       border-top: 3px solid white;
       border-bottom: 3px solid white; }
     header .container .row .boton a {
-      background-color: #ff3232; }
+      background-color: #ff3232;
+      width: 70%; }
     header .container .row a.more {
       box-shadow: 0 0 0;
       padding-top: 7px; }
@@ -122,10 +123,6 @@ header {
 .menu1 a .pad {
   padding-top: 6rem; }
 
-header {
-  display: inline-block;
-  font-size: 12px; }
-
 span {
   padding-left: 20px; }
 
@@ -145,7 +142,9 @@ span {
   #labor .row {
     margin-bottom: 0; }
     #labor .row div img {
-      width: 100%; }
+      width: 100%;
+      _width: auto/9;
+      /* Bug de ie8 */ }
     #labor .row div p {
       font-size: 1.2rem; }
 
@@ -165,9 +164,13 @@ span {
       margin-bottom: 10px; }
       #adopta .parallax-container .container .n1 a {
         width: 100%;
+        _width: auto/9;
+        /* Bug de ie8 */
         background: #ff3232; }
     #adopta .parallax-container .container .n2 a {
       width: 100%;
+      _width: auto/9;
+      /* Bug de ie8 */
       background: transparent;
       border: 1px solid #fffcfc; }
 
@@ -176,11 +179,15 @@ span {
   height: 200px;
   position: absolute;
   width: 100%;
+  _width: auto/9;
+  /* Bug de ie8 */
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.8); }
 
 .mobile img {
   width: 100%;
+  _width: auto/9;
+  /* Bug de ie8 */
   height: 63vh; }
 
 .mobile .container {
@@ -188,4 +195,6 @@ span {
   top: -468px; }
   .mobile .container img {
     height: 3vh;
-    width: 40%; }
+    width: 40%;
+    _width: auto/9;
+    /* Bug de ie8 */ }
