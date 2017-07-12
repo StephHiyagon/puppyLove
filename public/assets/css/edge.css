@@ -7,10 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 header {
-  position: relative;
   width: 100%;
   background: transparent;
-  height: 580px;
+  height: 60px;
   line-height: 60px; }
   header nav.fixed {
     position: fixed;
@@ -46,7 +45,7 @@ header {
   font-weight: bold;
   cursor: pointer;
   outline: none;
-  z-index: 10; }
+  z-index: 10000000000000; }
 
 .cross {
   background-color: transparent;
@@ -61,7 +60,7 @@ header {
   font-weight: bold;
   cursor: pointer;
   outline: none;
-  z-index: 10; }
+  z-index: 10000000000000; }
 
 .menu {
   position: relative;
@@ -128,7 +127,7 @@ span {
 
 #main {
   position: relative;
-  top: -6px; }
+  top: 28rem; }
   #main .container {
     padding-bottom: 22px; }
     #main .container .petit p {

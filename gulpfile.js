@@ -14,7 +14,7 @@ var config = {
 var paths = {
   assets: 'assets/',
   html: '*.html',
-  mainSass: 'scss/main.scss',
+  mainSass: 'scss/*.scss',
   mainJs: 'js/**/*.js',
   img: 'images/**',
   font: 'font/**'

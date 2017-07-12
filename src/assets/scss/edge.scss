@@ -1,6 +1,6 @@
 @import "variables";
 
-body {
+body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   width: 100%;
@@ -10,10 +10,9 @@ body {
 }
 
 header {
-  position:relative;
   width: 100%;
   background: transparent;
-  height: 580px;
+  height: 60px;
   line-height: 60px;
 
   nav.fixed{
@@ -62,7 +61,7 @@ header {
   font-weight: bold;
   cursor: pointer;
   outline: none;
-  z-index: 10;
+  z-index: 10000000000000;
 }
 
 .cross {
@@ -78,7 +77,7 @@ header {
   font-weight: bold;
   cursor: pointer;
   outline: none;
-  z-index: 10;
+  z-index: 10000000000000;
 }
 
 
@@ -160,7 +159,7 @@ span {
 
 #main{
   position: relative;
-  top: -6px;
+  top: 28rem;
   .container{
     padding-bottom: 22px;
     .petit{
